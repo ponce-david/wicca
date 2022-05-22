@@ -1,0 +1,59 @@
+/* 
+Main colors:
+
+rgb(47, 46, 46)
+rgb(246, 242, 237)
+
+*/
+@font-face {
+  font-family: Nexa;
+  src: url("/Fuentes/Nexa-Light.otf");
+}
+
+@font-face {
+  font-family: Nexa;
+  font-weight: bold;
+  src: url("/Fuentes/Nexa-Bold.otf");
+}
+
+@font-face {
+  font-family: Kiona;
+  font-weight: bold;
+  src: url("/Fuentes/Kiona-Regular.ttf");
+}
+
+* {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+body {
+  font-family: "Nexa";
+  line-height: 1;
+  font-weight: 400;
+  width: 100%;
+  background-color: #2f2e2e;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+.container {
+  padding: 128px 82px 10px 82px;
+  margin-bottom: 128px;
+}
