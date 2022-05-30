@@ -80,6 +80,8 @@ addNewClass(allSetions);
 ///////////////////////////////////////////////////////////
 // Scrolling effect for the link
 
-const linkToScroll = document.querySelector(".toscroll");
+const linkToScroll = document.querySelector(".toScroll");
 
-linkToScroll.addEventListener("click", function (e) {});
+linkToScroll.addEventListener("click", function (e) {
+  e.defaultPrevented();
+});
